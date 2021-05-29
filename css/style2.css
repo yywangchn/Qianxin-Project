@@ -1,0 +1,41 @@
+.share-box {
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    width: 40px;
+    z-index: 10000;
+}
+
+.share-box a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,1);
+    border: 1px solid rgba(127,142,168,1);
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-box > a:hover {
+    background-color: #2550DC;
+}
+
+.go-to-top {
+    position: absolute;
+    left: 0px;
+    bottom: -65px;
+}
+
+.go-to-top img {
+    width: 34px;
+    height: 34px;
+}
+
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}

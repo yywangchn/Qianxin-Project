@@ -1,0 +1,235 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#gt-security{
+	background-color: #f7f7f7;
+	position: relative;
+	text-align: center;
+	height: 980px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 微软雅黑;
+}
+#gt-security h1{
+	font-size: 28px;
+	font-weight: 400;
+	padding: 40px 0 0;
+	margin: 0;
+	border: 0;
+	height: 60px;
+}
+.gt-page-box{
+	width: 1069px;
+	margin: 0 auto;
+}
+.gt-page-title{
+	color: #030303;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 28px;
+	font-weight: 400;
+
+	
+}
+
+.gt-page-title a.gt-icon-more{
+	color:#858585;
+	margin-right: 0px;
+	padding-left: 20px;
+	background: url(../img/gt-icon-more.png) no-repeat 0 center;font-size: 14px;
+	}
+.gt-page-title a.gt-icon-more:hover{
+	color: #00a4ff;
+	}
+.gt-icon-more a{
+	font-size: 14px;
+	}
+
+.gt-page-box-para{
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: left;
+}
+.gt-page-box-container{
+	height: 820px;
+	background: url(../img/gt-bg.png) no-repeat center 20px;
+	position: relative;
+	background-size: contain;
+}
+a{
+	color: #030303;
+	text-decoration: none;
+	outline: 0;
+}
+.gt-page-box-container a{
+	position:absolute;
+	right:135px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+	 -webkit-transform: scale(0.97);
+	 -moz-transform: scale(0.97);
+	 -o-transform: scale(0.97);
+	 -ms-transform: scale(0.97);
+	 transform: scale(0.97);
+    
+}
+.gt-page-box-container a:hover{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.gt-page-box-container a.gt-a1{
+	top: 34px;
+	width: 482px;
+	height: 145px;
+	background: url(../img/gt-bg-a1.png) no-repeat center;
+	background-size: contain;
+}
+.gt-page-box-container a.gt-a2{
+	top: 189px;
+	width: 734px;
+	height: 131px;
+	background: url(../img/gt-bg-a2.png) no-repeat center;
+	background-size: contain;
+}
+.gt-page-box-container a.gt-a3{
+	top: 330px;
+	width: 704px;
+	height: 144px;
+	background: url(../img/gt-bg-a3.png) no-repeat center;
+	background-size: contain;
+}
+.gt-page-box-container a.gt-a4{
+	top: 483px;
+	width: 779px;
+	height: 214px;
+	background: url(../img/gt-bg-a4.png) no-repeat center;
+	background-size: contain;
+}
+/*---------------------------------------------------------------------------------------*/
+#gt-solution {
+    background: url(../img/gt-s-bg.jpg) repeat-x top;
+    height: 664px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+#gt-solution h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    margin: 40px 0 0px;
+}
+#gt-solution .gt-page-title a{
+	font-size: 14px;
+	color:#030303;
+	margin-right: 5px;
+	}
+#gt-solution .gt-page-title a:hover{
+	color: #00a4ff;
+	}
+#gt-solution ul {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #c2c7cc;
+    box-sizing: border-box;
+}
+
+#gt-solution li {
+    cursor: pointer;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 30px;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px;
+}
+
+#gt-solution li.gt-current {
+    border-bottom: 2px solid #3057d9;
+}
+
+#gt-solution .gt-detail {
+    box-sizing: border-box;
+    margin: 40px auto 0;
+    padding-left: 390px;
+    position: relative;
+    text-align: left;
+}
+
+#gt-solution .gt-detail h2 {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+#gt-solution .gt-detail > img {
+    mix-blend-mode: darken;
+    left: 0;
+    position: absolute;
+    top: 55px;
+}
+
+#gt-solution .gt-content {
+    color: #666;
+    line-height: 24px;
+}
+
+#gt-solution .gt-link a {
+    border: 1px solid #2e74e8;
+    box-sizing: border-box;
+    color: #2e74e8;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    margin: 20px 0 18px;
+    text-align: center;
+    width: 122px;
+}
+#gt-solution .gt-link a:hover{
+    border: 1px solid #00a4ff;
+    color:#00a4ff;
+}
+
+#gt-solution .gt-products,
+#gt-solution .gt-industy,
+#gt-solution .case {
+    color: #181c3c;
+    line-height: 34px;
+    margin-top: 20px;
+}
+
+#gt-solution .gt-products a {
+    border: 1px solid #cbd4e1;
+    box-sizing: border-box;
+    color: #181c3c;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+
+#gt-img {
+    margin-top: 5px;
+    object-fit: contain;
+    transition: transform 200ms;
+}
+#gt-img:hover{
+    transform-origin: 50% 50%;
+    transform: scale(1.1,1.1);
+    transform: translate(0,-5px);
+}
+.gt-page-box img.gt-detail_img{
+	width:300px;
+	margin-left:5px;
+	}
+

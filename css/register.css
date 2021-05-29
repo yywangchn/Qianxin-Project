@@ -1,0 +1,128 @@
+/*----顶部开始----*/
+.head{
+    width: 100%;
+    height: 63px;
+    background-color: #1e2d46;
+
+}
+
+.logo{
+    /* width: 18%;  */
+    height: 100%;
+    background-color: #1e2d46; 
+    padding-left: 20px;
+}
+
+
+/*----表单背景----*/
+.background{
+    width:100%;
+    height: 780px;
+    position: relative;
+    background-color:#e9e9ea ;
+}
+
+.sheet{
+    position: absolute;
+    top: 25px;
+    right: 265px;
+
+    width: 900px;
+    height:520px;
+    background-color: white;
+}
+
+.title{
+    width: 855px;
+    height: 67px;
+    margin-left: 22px;
+    border-bottom: 1px solid gray;
+    color:black;
+    font-size:18px;
+    text-align: center;
+    line-height: 67px;
+}
+
+.others{
+    position: relative;
+    width: 324px;
+    left:288px;
+
+}
+.one{
+    height:61px;
+    font-size:12px;
+    line-height: 61px;
+}
+
+
+.two select{
+    height:42px;
+    width: 60px;
+    float: left;
+}
+
+.two input{
+    height: 36px;
+    width: 260px;
+    float: right;
+}
+
+
+/* .s, .p{
+    display: block;
+} */
+
+.three input{
+    margin-top: 23px;
+    height:36px;
+    width: 324px;
+}
+
+.four input{
+    margin-top: 23px;
+    height:36px;
+    width: 324px;
+}
+
+.five input{
+    margin-top: 23px;
+    height: 36px;
+    width: 324px;
+}
+
+
+
+.six{
+    margin-top: 23px;
+    font-size:12px;
+}
+
+.seven{
+    margin-top: 23px;
+    height: 36px;
+    width: 330px;
+    background-color: #0044cc;
+    text-align: center;
+    color: white;
+    text-align: center;
+    border-radius:3px;
+    font-size:14px;
+    line-height: 36px;
+}
+
+.eight{
+    font-size:12px;
+    text-align: right;
+}
+
+ .bottom{
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color:#e9e9ea ;
+    text-align: center ;
+    color: black;
+    font-size: 12px;
+} 

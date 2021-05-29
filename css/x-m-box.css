@@ -1,0 +1,166 @@
+.page-box {
+    width: 1069px;
+    margin: 0 auto;
+    }
+#m-box {
+background: url(https://www.qianxin.com/static/img/leage-bg.png) no-repeat center 0;
+text-align: center;
+height: 251px;
+    }
+#m-box h1 {
+    font-size: 28px;
+    font-weight: 400;
+    /* margin: 40px 0 0px; */
+    color: #fff; 
+    }
+.page-ttl {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    }
+#m-box p {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    }
+#m-box  ul {
+    list-style: none;
+    display: flex; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 30px auto 0;
+    }
+#m-box  li{
+    color: #fff;
+    }
+#m-box li a{
+    padding: 0 20px;
+    color: #fff;
+    }
+
+a{
+    color: #fff;
+    text-decoration: none;
+    }
+
+
+/* x-box-生态合作 */
+#x-box {
+    background: #171f38 url(https://www.qianxin.com/static/img/trend-bg.png) repeat-x top;
+    /* color: #fff; */
+    height: 382px;
+    text-align: center;
+    }
+.page-box {
+    width: 1069px;
+    margin: 0 auto;
+    }
+#x-box h1 {
+    font-size: 28px;
+    font-weight: 400;
+    /* padding: 70px 0 10px; */
+    color: #fff;
+    }
+#x-box .intro {
+    /* font-size: 14x!important; */
+    color: #fff;
+    line-height: 38px;
+    text-align: left;
+    
+    }
+#x-box ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-start;
+    margin-top: 25px;
+    }
+#x-box li {
+    list-style: none;
+    }
+#x-box a{
+    color: #fff;
+    text-decoration: none;
+    }
+#x-box li a{
+    padding: 0 20px;
+    color: #fff;
+    }
+
+/* bottom */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    /* box-sizing: border-box; */
+    }
+.w{
+    width: 1200px;
+    margin: 0 auto;
+    }    
+.buttom {
+    height: 530px;
+    background-color: #152339;
+    }
+.buttom dt {
+    font-size: 16px;
+    color:#fff;
+    }
+.wei11 {
+    float: left;
+    }
+.wei22 {
+   float: right;
+    }
+.wei1 { 
+   width: 76px;
+   height: 76px;
+   }       
+.buttom .box {
+    height: 400px;
+    border-bottom: 1px solid #fff;
+    }
+a#list1{  
+    color:#fff;
+    text-decoration: none;
+
+    }
+dl{
+    float: left;
+    margin-top: 52px;
+    width: 198px; 
+    color: #fff; 
+    }
+dl dt{
+    margin-bottom: 40px;
+    color: #fff;
+    }
+dl dd{
+    margin-bottom: 20px;
+    }
+dl:nth-child(4){
+    border-right: 1px solid #fff;
+    }
+dl:nth-child(5){
+    margin-left: 10px;
+    }
+span#list{
+    display: block;
+    color: #fff;
+    margin-top: 10px;/*111111*/
+    }
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+    line-height: 25px;
+    }
+#list{
+    color: darkgray;
+    /* text-decoration: none; */
+    font-size: 14px;
+    }
+#img{
+    width: 30px;
+    height: 30px;
+    }

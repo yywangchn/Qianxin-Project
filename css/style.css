@@ -1,0 +1,210 @@
+/* 声明字体图标 */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?tomleg");
+  src: url("../fonts/icomoon.eot?tomleg#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?tomleg") format("truetype"),
+    url("../fonts/icomoon.woff?tomleg") format("woff"),
+    url("../fonts/icomoon.svg?tomleg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 版心 */
+.w {
+  width: 1210px;
+  margin: 0 auto;
+}
+/* 头部部分 */
+.header {
+  height: 32px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.header-left {
+  float: left;
+  width: 265px;
+}
+.header-left a {
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  color: #030303;
+}
+
+.header .search {
+  position: relative;
+  float: left;
+  width: 195px;
+  height: 32px;
+  margin-left: 280px;
+}
+.header .search input {
+  width: 195px;
+  height: 32px;
+  background-color: #f2f2f2;
+}
+.header .search a {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 15px;
+  height: 15px;
+}
+.header-right {
+  float: right;
+  position: relative;
+}
+.header-right a {
+  line-height: 32px;
+}
+.header-right i {
+  line-height: 32px;
+  margin: 0 10px;
+}
+.sed::after {
+  content: "\e91e";
+  font-family: "icomoon";
+}
+.header-right .color {
+  color: #ffb400;
+  border: 1px solid #ffb400;
+  margin-right: 16px;
+}
+
+/* 导航栏部分 */
+.nav {
+  height: 93px;
+}
+.nav .logo {
+  float: left;
+  height: 90px;
+}
+.nav .logo img {
+  height: 100%;
+}
+.nav ul {
+  float: left;
+  width: 1055px;
+  height: 90px;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  margin-left: 36px;
+  text-align: center;
+  line-height: 90px;
+  color: #333333;
+  font-size: 14px;
+}
+.nav ul li a:hover {
+  color: #3057d9;
+}
+/* 轮播图部分 */
+.carousel {
+  position: relative;
+
+  height: 460px;
+  overflow: hidden;
+}
+.carousel ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 600%;
+  height: 460px;
+}
+.carousel ul li {
+  float: left;
+  width: 1210px;
+  height: 460px;
+  list-style: none;
+}
+.carousel img {
+  width: 1210px;
+  height: 460px;
+}
+.carousel ol {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -20px;
+}
+.carousel ol li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  /* background-color: #fff; */
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255, 0.7);
+  list-style: none;
+  margin-left: 5px;
+}
+.current {
+  background-color: #fff;
+}
+
+/* 热点聚焦模块 */
+.news {
+  height: 460px;
+  margin-top: 40px;
+}
+.news .news-hd {
+  height: 40px;
+  /* background-color: pink; */
+  margin-top: 20px;
+}
+.news .news-hd .title {
+  float: left;
+  line-height: 40px;
+  font-size: 22px;
+  margin-left: 70px;
+}
+.news-hd .more {
+  float: right;
+  height: 40px;
+}
+.more .more-left {
+  float: left;
+  color: #fff;
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+  background-color: #3057d9;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.more .more-reight {
+  float: left;
+  color: #fff;
+  width: 50px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 22px;
+  margin-top: 4px;
+  background-color: #3057d9;
+}
+.news .news-box {
+  margin-top: 40px;
+  height: 350px;
+}
+.news .news-xbox {
+  float: left;
+  width: 357px;
+  height: 350px;
+  margin-left: 30px;
+}
+.news .news-box img {
+  width: 357px;
+  height: 192px;
+}
+.news .news-xbox ul li {
+  margin-bottom: 10px;
+}
+.news .news-xbox:nth-child(1) {
+  margin-left: 70px;
+}
